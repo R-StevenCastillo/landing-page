@@ -1,3 +1,5 @@
+/* General */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +10,8 @@ body {
     flex-direction: column;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+/* Header Div */
 
 h1 {
     font-size: 24px;
@@ -25,12 +29,6 @@ ul {
     gap: 50px;
 }
 
-.header,
-.introduction {
-    background-color: #1f2937;
-    color: #f9faf8;
-}
-
 .header {
     height: 80px;
     display: flex;
@@ -38,6 +36,16 @@ ul {
     justify-content: space-around;
     padding: 0 20px;
 }
+
+/* Introduction Div */
+
+.header,
+.introduction {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+
 
 .introduction {
     display: flex;
@@ -71,6 +79,8 @@ div.introduction-content > p {
     font-weight: 400;
 }
 
+/* Buttons Configuration */
+
 button {
     background-color: #3882f6;
     color: #e5e7eb;
@@ -79,6 +89,8 @@ button {
     align-self: flex-start;
     border-radius: 12px;
 }
+
+/* Content Div */
 
 .content {
     padding: 80px;
@@ -115,12 +127,15 @@ button {
     margin-bottom: 10px;
 }
 
+/* Quote Div */
+
 .quote {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 100px;
+    background-color: #e5e7eb;
     
 }
 
@@ -129,6 +144,7 @@ button {
     font-weight: 300;
     font-style: italic;
     width: 46vw;
+    
 }
 
 #quote-person {
@@ -137,6 +153,8 @@ button {
     padding-top: 20px;
     padding-left: 55vh;
 }
+
+/* Sign Up Div */
 
 .signup {
     display: flex;
@@ -168,6 +186,8 @@ button {
     display: block;
     align-self: center;
 }
+
+/* Footer Div */
 
 .footer {
     display: flex;
