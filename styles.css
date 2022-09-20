@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+    border: 1px solid red;
 }
 
 body {
@@ -122,13 +122,14 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 90px;
+    padding: 100px;
+    
 }
 
 #quote {
     font-size: 36px;
     font-weight: 300;
-    width: 90vh;
+    width: 46vw;
 }
 
 #quote-person {
@@ -136,4 +137,35 @@ button {
     font-weight: 700;
     padding-top: 20px;
     padding-left: 55vh;
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.signup-space {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 100px;
+    gap: 90px;
+    background-color: #3882f6;
+    border-radius: 20px;
+}
+
+.signup-space>div>p {
+    color: #f9faf8;
+    padding: 2px
+}
+
+.signup-space>button {
+    border-color: #f9faf8;
+    border-width: 2px;
+    display: block;
+    align-self: center;
 }
